@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, Arial, sans-serif, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('anker-soundcore-liberty-air-2-1.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 50px;
+    border: 1px solid transparent;
+    transition: 0.5s ease;
+}
+
+ul li a:hover {
+    background-color: white;
+    color: black;
+}
+
+.name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.name h1 {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+.button {
+    position: absolute;
+    padding-top: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.next-page {
+    color: white;
+    border: 1px solid white;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: 0.5s ease;
+}
+
+.next-page:hover {
+    background-color: #009970;
+    border-color: #009970;
+}
+
+h1{
+    text-align: center;
+}
+
+div.background{
+    background-color: lightcoral;
+    background-size: cover;
+    background-position: center;
+}
+
+#audio{
+    align-items: center;
+}
+
+video{
+    display: block;
+    width: 90vh;
+}
+.video-section video{
+    margin: 100px 400px;
+    border-radius: 10px;
+}
+
+.video-section{
+    height: 100vh;
+}
+
+.audio-section audio{
+    margin: 100px 500px;
+}
+
+.para-section p{
+    text-align: center;
+    font-size: 26px;
+    color: white;
+    margin: 50px 200px;
+
+
+}
